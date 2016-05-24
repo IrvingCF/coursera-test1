@@ -43,6 +43,7 @@ section p {
 .navbar-header button.navbar-toggle {
     clear: both;
     margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 
@@ -50,7 +51,7 @@ section p {
 /********** Medium devices only *************/
 
 	
-}
+
 
 /********** Extra small devices only **********/
 
@@ -80,3 +81,4 @@ section p {
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #f5f5f5;
     background-color: #7288CB;
+}
