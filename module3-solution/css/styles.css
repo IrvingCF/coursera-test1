@@ -35,6 +35,10 @@ h1 {
     margin-bottom: 15px;
 }
 
+.navbar-nav a {
+    color:#080808;
+}
+
 h2 {
     text-align: center;
     font-size: 2em;
