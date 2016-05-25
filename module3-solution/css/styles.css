@@ -20,24 +20,8 @@ h1 {
     font-size: 1.75em;
  }
 
-h2 {
-	text-align: center;
-}
-
-section {
-    background-color: #999999;
-    border: 1px solid #000000;
-    margin: 0 0 25px 0;
-    padding: 0;
-    position: relative;
-}
-
-section h3 {
-    font-size: 1.25em;
-}
-
-section p {
-    padding: 0 6px 4px 6px;
+#nav-list a:hover {
+  background: #E7E7E7;
 }
 
 .navbar-header button.navbar-toggle,
@@ -50,6 +34,56 @@ section p {
     margin-top: 50px;
     margin-bottom: 15px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+                /***END HEADER***/
+
+
+
+
+
+/***HOME PAGE***/
+
+section {
+    background-color: #999999;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
+    position: relative;    
+}
+
+#chicken, #beef, #sushi {
+    border-radius: 10px;
+    border: none;
+}
+
+#chicken:hover, #beef:hover, #sushi:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+    
+
+section h3 {
+    font-size: 1.25em;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #7288CB;
+    opacity: .8;
+    border-radius: 10px 10px 0 10px;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+}
+
 
 
 
