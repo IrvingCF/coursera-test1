@@ -1,9 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 16px;
     color: #F5F5F5;
     background-color: #7288CB;
     font-family: 'Source Sans Pro', sans-serif;
-    box-sizing: border-box;
 }
 
                /****HEADER****/
@@ -42,7 +47,7 @@ section p {
 
 .navbar-header button.navbar-toggle {
     clear: both;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 
@@ -68,17 +73,12 @@ section p {
         /* 1vw = 1% of viewport width */
     }
     
-    #collapsable-nav a {
-        /* Collapsed nav menu text */
-        font-size: 1.2em;
-    }
-    #collapsable-nav a span {
-        /* Collapsed nav menu glyph */
-        font-size: 1em;
-        margin-right: 5px;
-    }
-
+    
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #f5f5f5;
     background-color: #7288CB;
-}
+    margin-top: 50px;
+    margin-bottom: 15px;
+    clear: both;
+
+    }
